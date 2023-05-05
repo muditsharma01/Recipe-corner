@@ -1,0 +1,41 @@
+.navbar-brand img {
+    animation: shake 1s infinite;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px) rotate(-5deg);
+    }
+    50% {
+      transform: translateX(0) rotate(0);
+    }
+    75% {
+      transform: translateX(5px) rotate(5deg);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  
+  .brand-name {
+    animation: text-color 2s infinite;
+    padding-left: 10px;
+  }
+
+  
+  @keyframes text-color {
+    0% {
+      color: white;
+    }
+    50% {
+      color: gray;
+    }
+    100% {
+      color: white;
+    }
+  }
+  
